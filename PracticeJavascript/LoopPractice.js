@@ -90,11 +90,62 @@
     }
     console.log(emptyArray)
 
-
-
     //object in javascript
+    //dictionaries in python
+
+    let student = { 
+        firstname:"Rohit" ,
+         lastname:"Jaiswal" , 
+         age:25, 
+         address:"Mahua",
+         studentInfo: function(){
+             return this.firstname + ' ' + this.lastname + ' ' + this.age + ' ' + this.address
+         }
+        }
+    console.log(student.firstname)
+    console.log(student.lastname)
+    student.firstname="Mahi"
+    student.age--
+    console.log(JSON.stringify(student))
+    console.log(student.studentInfo())
 
 
+    //if else condition and switch statement
+
+switch(2){
+    case(0):
+        text = "weekend";
+        break;
+    case(5):
+        text = "weekend";
+        break;
+    case(6):
+        text = "weekend";
+        break;
+    case(1):
+        text = "weekday";
+        break;
+    default:
+        text = "weekday"            
+}
+        
+console.log(text)
+
+
+//JSON
+
+let students =[{
+   "name": "Rohit Jaiswal",
+   "age": "25",
+   "address":"mahua"
+},
+{
+    "name": "Rohit gupta",
+    "age": "25",
+    "address":"mahua"
+ }
+]
+console.log(JSON.stringify(students))
 
     
     
