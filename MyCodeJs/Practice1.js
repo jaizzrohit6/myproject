@@ -4,6 +4,9 @@ console.log("start")
 setImmediate(() => {
     console.log("setimmidation")
   })
+  // setInterval(() => {
+  //   console.log("setinterval")
+  // },1);
   process.nextTick(()=>{
     console.log("nexttick")
 })

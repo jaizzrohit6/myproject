@@ -83,27 +83,27 @@
 
 //Problem 1 
 
-// function f(a, b, c) {
-// 	m = ["1", "2", "3"];
-// 	a = 3;
-// 	b[0] = "X";
-// 	c.first = false;
-// }
+function f(a, b, c) {
+	m = ["1", "2", "3"];
+	a = 3;
+	b[0] = "X";
+	c.first = false;
+}
 
-// var x = 4;
-// var y = ["A", "B", "C"];
-// var z = { first: true };
+var x = 4;
+var y = ["A", "B", "C"];
+var z = { first: true };
 
-// f(x, y, z);
-// console.log("function f==",x, y, z); //4 XBC false
+f(x, y, z);
+console.log("function f==",x, y, z); //4 XBC false
 
-// function g(a) {
-// 	a = { first: true };
-// 	console.log(a);  //true
-// }
-// console.log("value of z ==",z)
-// g(z);
-// console.log(z); // true
+function g(a) {
+	a = { first: true };
+	console.log(a);  //true
+}
+console.log("value of z ==",z)
+g(z);
+console.log(z); // true
 
 
 
