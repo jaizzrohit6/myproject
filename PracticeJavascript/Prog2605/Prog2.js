@@ -26,6 +26,11 @@ const isEmpty=function (string){
 }
 console.log(isEmpty("rohit"))
 
+
+
+
+
+
 // 3 Write a JavaScript function to split a string and convert it into an array of words
 
 let stringToArray=function (string){

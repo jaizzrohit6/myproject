@@ -5,9 +5,8 @@ output a=4 b=3 x=2 y=2 l=2
 
 */
 //Approach 1
-const countDuplChar=function  (str){
+const countDuplChar=function(str){
 	var arr={};
-	
 	for(let i =0 ; i<str.length ; i++){
 		if(Object.keys(arr).includes(str[i])){
 			arr[str[i]] = arr[str[i]]+1

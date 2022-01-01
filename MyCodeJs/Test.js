@@ -39,3 +39,133 @@ var array = [1, 2, 3, 4, 5, 6, 7];
         var value = arr.every(isodd)
         console.log("value===",value)
     }
+/*
+var a= {}
+var b = a 
+
+a.v=1
+b.v=2
+
+console.log(a.v)
+// if(true==1){
+//     console.log("rohit")
+// }
+
+// var foo=[]
+// foo.push(1)
+// foo.push(2)
+// console.log(foo.length)
+
+// var MyClass=function(n){
+//     this.n=n
+// }
+// MyClass.X.square=function(){
+//     //typeof()
+//     return this.n=this.console
+
+// }
+// var moment = require('moment-timezone');
+// console.log("mt time",moment().tz("America/Los_Angeles").format("HH:mm:ss A"));
+// const number = undefined+11
+// console.log(typeof(number),number)
+
+
+var y = 10   //#1234
+var z = y
+console.log(z)
+y = 15 
+console.log(y)
+console.log(z)
+
+
+
+// console.log("start")
+// setImmediate(() => {
+//     console.log("setimmidation")
+//   })
+//   process.nextTick(()=>{
+//     console.log("settime out")
+// })
+// // setTimeout(()=>{
+// //     console.log("settime out")
+// // })
+// console.log("end")
+
+// let var1 = new String("Rohit")
+// let newString = "test"
+// String.prototype.testMethod= function(){
+
+//   console.log("Hello from",this.toString())
+// }
+// "Rohit".testMethod()
+
+
+// String.prototype.distance = function (char) {
+//   //var index = this.indexOf(char);
+
+//   if (index === -1) {
+//       console.log(char + " does not appear in " + this);
+//   } else {
+//     console.log(char + " is " + (this.length - index) + " characters from the end of the string!");
+//   }
+// };
+// "Hello".distance();
+
+    // var s = new Buffer("hello");
+    // var p = new Buffer("world");
+    // var new3 = Buffer.concat([s,p]);
+    // console.log(new3)
+   // console.log(new3.toString())
+//console.log(emitter.on(event,listener))
+
+function reverseWord(string){
+  //  let strvalue =""
+  //   for(let i;i<=string.length-1;i--){
+  //      strvalue=strvalue+string[i]
+  //      console.log(strvalue)
+  //   }
+    // return strvalue
+    let str= string.split("").reverse().join("").split(" ").reverse().join(" ")
+    let str1= string.split("").reverse().join("")
+    //let output = str.split(" ").reverse().join(' ')
+    console.log(str1)
+    console.log(str)
+  }
+   reverseWord("My name is rohit")
+
+  //  console.log("start")
+  //  setImmediate(() => {
+  //      console.log("setimmidation")
+  //    })
+  //    process.nextTick(()=>{
+  //      console.log("nexttick")
+  //  })
+  //  setTimeout(()=>{
+  //      console.log("settime out")
+  //  })
+  //  console.log("end")
+let arrayList = [{accountId :1234 , accountNumber:45678},{accountId :1234 , accountNumber:45678},
+{accountId :9856 , accountNumber:45678},{accountId :86755 , accountNumber:45678}]
+
+let accId =1234 
+let accnNumber = 2345
+var accounting=[]
+
+       
+  accounting.push({ 
+       "accountId" : accId,
+       "accountNumber"  : accnNumber
+   });
+
+
+console.log(accounting)
+
+
+
+  //  let a = {}
+  //  let b = {}
+  //  c = a ==b
+  //  console.log(c)
+
+
+*/
