@@ -28,7 +28,7 @@
 // insertionSort(arr,n)
 // printArray(arr,n)
 // simple array
-const arr = ['a', 'b', 'c'];
+//const arr = ['a', 'b', 'c'];
 console.log(Object.keys(arr)); // console: ['0', '1', '2']
 
 // array-like object

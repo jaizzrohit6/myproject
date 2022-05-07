@@ -1,0 +1,62 @@
+mongo db command for database
+
+view all database
+show dbs 
+
+create a new or switch database
+use dbname
+
+view current database
+db
+
+drop database
+db.dropDatabase()
+
+=================================
+
+mongo db command for collection
+
+show collections
+
+create collection name 'myComments'
+db.createCollection('myComments')
+
+drop a collections
+db.myComments.drop()
+
+insert one row
+
+db.myComments.insert({
+    'name':'Rohit',
+    'age': 23,
+    'member': 5
+    })
+
+insert many row 
+
+db.myComments.insertMany([
+    {
+    'name':'Rohit',
+    'age': 23,
+    'member': 5
+    },
+    {
+    'name':'Raj',
+    'age': 25,
+    'member': 5
+    },
+    {
+    'name':'Puja',
+    'age': 28,
+    'member': 5
+    }
+    ])
+
+show all row in collection (prettyfied)
+
+db.myComments.find().pretty()
+
+
+
+
+
